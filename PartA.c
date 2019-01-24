@@ -1,7 +1,3 @@
-//Note: pipes are not bi-directional, so you will need two pipes per process, one for receiving (reading) and one for sending (writing).  if you the to send (write) something using pipe1 you need to close the reading end of that pipe, namely close(pipe1[0]).  In the same way, if you need to receive something from the someone, you have to use another pipe, let say pipe2, so you use the reading end part and close the writing end, namely close(pipe2[1]) */
-
-//Sorry for any typo, I hope that this code will help you to beeter understand, how to use the API for process. Feel free to extend this code for two and three childrens.  
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>

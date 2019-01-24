@@ -1,8 +1,4 @@
-// Cody Carroll
-// OS Concepts
-// Programming Assignment 1
-// Part B (Extension of Part A)
-// Fall 2018
+// Andre Ripley
 
 #include <stdio.h>
 #include <sys/types.h>
